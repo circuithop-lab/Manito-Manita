@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-display: 'Cinzel', 'Playfair Display', Georgia, serif;
+}
+
+/* Global text contrast: ensure crisp black text across inputs, selects, textareas, and body */
+body {
+  color: #000000;
+}
+
+input, select, textarea {
+  color: #000000;
+}
+
+/* Festive Filipino Christmas Keyframes & Utilities */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.85; transform: scale(1); filter: drop-shadow(0 0 12px rgba(245, 158, 11, 0.45)); }
+  50% { opacity: 1; transform: scale(1.04); filter: drop-shadow(0 0 24px rgba(245, 158, 11, 0.85)); }
+}
+
+@keyframes gentle-sway {
+  0%, 100% { transform: rotate(-2deg); }
+  50% { transform: rotate(2deg); }
+}
+
+.animate-twinkle {
+  animation: twinkle 3.5s ease-in-out infinite;
+}
+
+.animate-sway {
+  transform-origin: top center;
+  animation: gentle-sway 4.5s ease-in-out infinite;
+}
+
+/* Custom scrollbar for wishlists */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(180, 83, 9, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(180, 83, 9, 0.4);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Paskong Pinoy Monito Monita",
+  "description": "Interactive Filipino Christmas Monito Monita (Secret Santa) exchange for 12 participants across 6 married couples in Lohra-Kirchvers with AI gift suggestions, spouse-exclusion draw, and EmailJS notifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

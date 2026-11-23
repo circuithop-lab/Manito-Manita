@@ -1,0 +1,18 @@
+{
+  "config": {
+    "eventName": "Lear Alumni Secret Santa: Manito-Manita in Germany",
+    "date": "2026-12-24",
+    "location": "Lohra-Kirchvers, Hessen",
+    "minBudgetEur": 30,
+    "targetParticipants": 12,
+    "isDrawFinalized": false,
+    "emailConfig": {
+      "serviceId": "",
+      "templateId": "",
+      "publicKey": "",
+      "autoSendOnDraw": false
+    }
+  },
+  "participants": [],
+  "sessions": {}
+}
